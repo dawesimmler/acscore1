@@ -1,0 +1,77 @@
+chat:
+  prefix: "&#DEB1FBᴀᴄꜱ&rᴘᴠᴘ &7» "
+  color: "&#DEB1FB"
+  join-plus: "&#DEB1FB[+] &f%player%"
+  join-minus: "&#DEB1FB[-] &f%player%"
+  discord-broadcast-seconds: 600
+  blocked-words:
+    - nigger
+    - hurenson
+    - fick
+    - fuck
+    - idiot
+    - bastard
+  block-links: true
+  link-allowlist: []
+  max-message-per-2s: 1
+commands:
+  perSecondLimit: 2
+  cooldownAfterBurstSeconds: 3
+  announce-cooldown-seconds: 30
+security:
+  blocked-spectator-commands:
+    - /tpa
+    - /tpahere
+    - /tpaccept
+    - /tpdeny
+    - /tpall
+    - /bot
+    - /duel
+    - /queue
+    - /1v1
+    - /duels
+spawn:
+  world: "world"
+  x: -166.027
+  y: -7.8125
+  z: -24.067
+  yaw: 135.1
+  pitch: -18.5
+  protect-world: true
+  protect-build: true
+  protect-explosions: true
+  restricted-commands:
+    - /bot
+doublejump:
+  enabled: true
+  world: "world"
+  cooldown-ms: 1000
+  velocity:
+    forward-multiplier: 1.7
+    y: 1.1
+  sound: "ENTITY_FIREWORK_ROCKET_BLAST"
+  particles:
+    type: "CLOUD"
+    count: 20
+    offsetX: 0.4
+    offsetY: 0.3
+    offsetZ: 0.4
+restart:
+  daily-enable: true
+  daily-time: "05:00"
+  warn-seconds: 10
+deathmessages:
+  radius: 50
+  actionbar: true
+  show-only-near: true
+notify:
+  discord-lines:
+    - "&r"
+    - "&#DEB1FB&lDISCORD SERVER"
+    - "&r"
+    - "&7Stay up to date with all &#DEB1FBnews&7,"
+    - "&#DEB1FBdaily tournaments&7 and much more!"
+    - "&r"
+    - "&#DEB1FB&lJOIN TODAY!"
+    - '{"text":"§9https://discord.gg/acspvp","clickEvent":{"action":"open_url","value":"https://discord.gg/acspvp"}}'
+

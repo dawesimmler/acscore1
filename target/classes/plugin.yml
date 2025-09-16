@@ -1,0 +1,100 @@
+name: AcsCore
+main: leos.dev.AcsCore.AcsCore
+version: 1.0.0
+api-version: '1.21'
+author: Acs
+website: https://example.com
+load: POSTWORLD
+commands:
+  announce:
+    description: Broadcast an announcement
+  back:
+    description: Return to last death location
+  clear:
+    description: Clear own inventory
+  dc:
+    aliases: [discord]
+    description: Show discord info
+  duel:
+    description: Send duel request
+  duelaccept:
+    description: Accept duel
+  dueldeny:
+    description: Deny duel
+  fly:
+    description: Toggle flight
+  flyspeed:
+    description: Set flight speed
+  gmc:
+    description: Gamemode creative
+  gms:
+    description: Gamemode survival
+  gmsp:
+    description: Gamemode spectator
+  heal:
+    description: Heal
+  invsee:
+    description: View inventory
+  lobby:
+    description: Send to lobby
+  mobclear:
+    description: Clear all mobs
+  msg:
+    description: Private message
+  r:
+    description: Reply
+  ping:
+    description: Show ping
+  rules:
+    description: Open rules GUI
+  setspawn:
+    description: Set spawn
+  spawn:
+    description: Teleport to spawn
+  tournament:
+    description: Tournament management
+  tp:
+    description: Teleport players
+  tphere:
+    description: Teleport players to you
+  tpa:
+    description: TPA request
+  tpahere:
+    description: TPAHere request
+  tpaccept:
+    description: Accept TPA
+  tpdeny:
+    description: Deny TPA
+  queue:
+    description: Queue join
+  leave:
+    description: Leave queue
+  acscore:
+    description: Core admin root
+    aliases: [acscoreadmin]
+  acscorereload:
+    description: Reload config
+    aliases: [acscore-reload]
+permissions:
+  acscore.admin:
+    default: op
+  acscore.admin.reload:
+    default: op
+  acscore.bypass.filter:
+    default: op
+  acscore.bypass.ratelimit:
+    default: op
+  acscore.bypass.cooldown:
+    default: op
+  acscore.flight:
+    default: op
+  acscore.invsee:
+    default: op
+  acscore.duel:
+    default: true
+  acscore.tournament.manage:
+    default: op
+  acscore.spawn.set:
+    default: op
+  acscore.mobclear:
+    default: op
