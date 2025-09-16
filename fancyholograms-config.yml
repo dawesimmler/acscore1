@@ -1,0 +1,12 @@
+# FancyHolograms Configuration
+
+# Configuration for fixing overlapping leaderboards
+leaderboards:
+  spacing: 2
+  display: 
+    - top: 10
+      fields:
+        - position
+        - playtime
+
+# Additional settings can be added here as needed
